@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)http://10.255.245.6/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>VIDIFI Test - Hệ thống thi trực tuyến</title>
+    <meta name="description" content="Vidifi - Hệ thống thi và quản lý trắc nghiệm nội bộ">
+    <meta name="author" content="pixelcave">
+    <!-- Open Graph Meta -->
+    <meta property="og:title" content="Vidifi Test">
+    <meta property="og:site_name" content="Vidifi Test">
+    <meta property="og:description" content="Vidifi - Hệ thống thi và quản lý trắc nghiệm nội bộ">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+    <!--<base href="http://10.255.245.6/">--><base href=".">
+    <link rel="shortcut icon" href="./index_files/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./index_files/favicon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://10.255.245.6/public/media/favicons/apple-touch-icon-180x180.png">
+    <!-- END Icons -->
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./index_files/slick.css"><link rel="stylesheet" href="./index_files/slick-theme.css">    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link rel="stylesheet" id="css-main" href="./index_files/dashmix.css">
+    <link rel="stylesheet" id="css-main" href="./index_files/custom.css">
+    <script src="./index_files/jquery.min.js.download"></script>
+</head>
+<body>
+    <!-- Page Container -->
+    <div id="page-container" class="sidebar-dark side-scroll page-header-fixed page-header-glass main-content-boxed remember-theme">
+        <!-- Header -->
+        <!-- Header -->
+        <header id="page-header">
+            <div class="content-header">
+                <div class="space-x-1 d-flex align-items-center space-x-2 animated zoomInRight">
+                    <a class="link-fx fw-bold d-flex align-items-center" href="http://10.255.245.6/home">
+                        <img src="./index_files/favicon-192x192.png" alt="Logo" class="me-2" style="width:32px;height:32px;object-fit:contain;">
+                        
+                        <!-- TRÊN MÁY TÍNH & IPAD: Dùng fs-md-4 để trả lại cỡ chữ to như cũ -->
+                        <span class="fs-5 fs-md-4 text-dual d-none d-sm-inline-block">Công ty TNHH MTV Quản lý và Khai thác đường ô tô cao tốc Hà Nội - Hải Phòng </span>
+                        
+                        <!-- TRÊN ĐIỆN THOẠI: Chỉ hiện chữ ngắn gọn -->
+                        <span class="fs-5 text-dual d-inline-block d-sm-none">eVidifi</span>
+                        <span class="fs-5 text-primary ms-1 d-inline-block d-sm-none"></span>
+                    </a>
+                </div>
+                <div class="space-x-1">
+                    <ul class="nav-main nav-main-horizontal nav-main-hover nav">
+                        <li class="nav-main-item">
+                            <!-- NÚT DARKMODE: Phân thân làm 2 bản -->
+                            <!-- Bản nhỏ cho Điện thoại (d-md-none) -->
+                            <a class="btn btn-sm btn-alt-secondary rounded-pill px-3 d-md-none" data-toggle="class-toggle" data-target="#dark-mode-toggler" data-class="far fa" onclick="Dashmix.layout(&#39;dark_mode_toggle&#39;);" href="javascript:void(0)">
+                                <i class="fa fa-moon" id="dark-mode-toggler"></i>
+                            </a>
+                            <!-- Bản to cho Máy tính (d-none d-md-inline-block) -->
+                            <a class="btn btn-hero btn-alt-secondary rounded-pill px-3 d-none d-md-inline-block" data-toggle="class-toggle" data-target="#dark-mode-toggler" data-class="far fa" onclick="Dashmix.layout(&#39;dark_mode_toggle&#39;);" href="javascript:void(0)">
+                                <i class="fa fa-moon" id="dark-mode-toggler"></i>
+                            </a>
+                        </li>
+                        <li class="nav-main-item">
+                                <!-- Mobile: Nút nhỏ xíu chỉ hiện icon -->
+                                <a class="btn btn-sm btn-primary rounded-pill px-3 d-md-none" href="http://10.255.245.6/dashboard">
+                                    <i class="fa fa-rocket"></i>
+                                </a>
+                                <!-- Desktop: Trả lại nút "btn-hero" to chà bá -->
+                                <a class="btn btn-hero btn-primary rounded-pill d-none d-md-inline-block" href="http://10.255.245.6/dashboard">
+                                    <i class="fa fa-rocket me-2"></i>Dashboard
+                                </a>
+                            </li>                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- END Header -->
+        <!-- Main Container -->
+        <main id="main-container">
+            <!-- Hero -->
+            <div class="hero bg-body-extra-light hero-bubbles hero-lg overflow-hidden">
+                <div class="hero-inner">
+                    <span class="hero-bubble hero-bubble-lg bg-warning" style="top: 20%; left: 10%;"></span>
+                    <span class="hero-bubble bg-success" style="top: 20%; left: 80%;"></span>
+                    <span class="hero-bubble hero-bubble-sm bg-xwork" style="top: 40%; left: 25%;"></span>
+                    <span class="hero-bubble hero-bubble-lg bg-xmodern" style="top: 10%; left: 20%;"></span>
+                    <span class="hero-bubble hero-bubble-lg bg-xeco" style="top: 30%; left: 90%;"></span>
+                    <span class="hero-bubble hero-bubble-lg bg-danger" style="top: 35%; left: 20%;"></span>
+                    <span class="hero-bubble hero-bubble-lg bg-warning" style="top: 60%; left: 35%;"></span>
+                    <span class="hero-bubble bg-info" style="top: 60%; left: 80%;"></span>
+                    <span class="hero-bubble hero-bubble-lg bg-xdream" style="top: 75%; left: 70%;"></span>
+                    <span class="hero-bubble hero-bubble-lg bg-xpro" style="top: 75%; left: 10%;"></span>
+                    <span class="hero-bubble bg-xplay" style="top: 90%; left: 90%;"></span>
+                    <div class="position-relative d-flex align-items-center">
+                        <div class="content content-full">
+                            <div class="row g-6 w-100 py-7 overflow-hidden">
+                                <div class="col-md-7 order-md-last py-4 mt-5 mt-md-0 d-md-flex align-items-md-center justify-content-md-end">
+                                    <div class="d-md-none w-100" style="height: 85px;"></div>
+                                    <img class="img-fluid animated flipInX" src="./index_files/landing.png" style="border: 3px solid #1b6db0; border-radius: 4px; height: 85%; width: 150%; object-fit: cover; margin-top: 65px;" alt="Hero Promo">
+                                </div>
+                                <div class="col-md-5 py-4 d-flex align-items-center js-appear-enabled animated fadeInLeft" data-toggle="appear" data-class="animated fadeInLeft">
+                                    <div class="text-center text-md-start">
+                                        <h1 class="fw-bold fs-2 mb-3">
+                                            Nền tảng thi nâng bậc lương cho Công ty TNHH MTV Quản lý và Khai thác đường ô tô cao tốc Hà Nội - Hải Phòng.
+                                        </h1>
+                                        <p class="text-muted fw-medium mb-4">
+                                            Thiết lập cuộc thi nâng bậc lương năm 2026 đối với CB-NV sản xuất trực tiếp tại các trạm thu phí của Công ty TNHH MTV Quản lý và Khai thác đường ô tô cao tốc Hà Nội - Hải Phòng
+                                        </p>
+                                        <a class="btn btn-alt-primary py-2 px-3 m-1" href="http://10.255.245.6/auth/signin" target="_blank">
+                                            <i class="fa fa-arrow-right opacity-50 me-1"></i> Bắt đầu ngay
+                                        </a>
+                                        <a class="btn btn-alt-secondary py-2 px-3 m-1 btn--scroll-to">
+                                            <i class="fa fa-arrow-down opacity-50 me-1"></i> Tìm hiểu thêm
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END Hero -->
+            <!-- Section 1 -->
+            <!-- BẮT ĐẦU: Nhúng CSS Animation để đảm bảo icon nào cũng quẩy được -->
+            <style>
+                .my-bounce-animation {
+                    animation: bounce_rocket 2s infinite ease-in-out;
+                    display: inline-block;
+                }
+                .my-beat-animation {
+                    animation: beat_cubes 1.5s infinite ease-in-out;
+                    display: inline-block;
+                }
+                @keyframes bounce_rocket {
+                    0%, 100% { transform: translateY(0); }
+                    50% { transform: translateY(-10px); }
+                }
+                @keyframes beat_cubes {
+                    0%, 100% { transform: scale(1); }
+                    50% { transform: scale(1.15); }
+                }
+            </style>
+            <!-- KẾT THÚC CSS -->
+
+            <div class="position-relative bg-body-extra-light" id="section--1">
+                <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-body-light skew-y-1"></div>
+                <div class="position-relative">
+                    <div class="content content-full my-5">
+                        <div class="row g-0 justify-content-center text-center">
+                            
+                            <!-- CỤC 1: Lưu trạng thái (Hiệu ứng đập nhịp tim) -->
+                            <div class="col-xl-4 js-appear-enabled animated flipInX" data-toggle="appear" data-class="animated flipInX">
+                                <div class="w-100 py-4 px-2">
+                                    <div class="d-inline-block bg-body-extra-light rounded p-1 mb-4">
+                                        <div class="d-inline-block bg-xinspire-light rounded p-4">
+                                            <!-- Đã thêm class my-beat-animation -->
+                                            <i class="fa fa-cubes fa-2x text-xinspire-dark my-beat-animation"></i>
+                                        </div>
+                                    </div>
+                                    <h3 class="h4 fw-bold mb-1">
+                                        Lưu trạng thái khi gặp sự cố
+                                    </h3>
+                                    <p class="fw-medium text-dark mb-0">
+                                        Tính năng Lưu đáp án khi gặp sự cố giúp người dùng bảo vệ kết quả bài kiểm tra
+                                        trắc nghiệm một cách dễ dàng và tiện lợi.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <!-- CỤC 2: Tạo đề tự động (Đổi thành Bánh răng và xoay tít) -->
+                            <div class="col-xl-4 js-appear-enabled animated flipInX" data-toggle="appear" data-class="animated flipInX">
+                                <div class="w-100 py-4 px-2">
+                                    <div class="d-inline-block bg-body-extra-light rounded p-1 mb-4">
+                                        <div class="d-inline-block bg-xplay-lighter rounded p-4">
+                                            <!-- Đã đổi fa-code thành fa-cog và thêm fa-spin -->
+                                            <i class="fa fa-cog fa-spin fa-2x text-xplay"></i>
+                                        </div>
+                                    </div>
+                                    <h3 class="h4 fw-bold mb-1">
+                                        Tạo đề thi tự động
+                                    </h3>
+                                    <p class="fw-medium text-dark mb-0">
+                                        Giúp nâng cao chính xác và hiệu quả của quá trình tạo đề thi, đồng thời tiết
+                                        kiệm thời gian và công sức cho người dùng.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <!-- CỤC 3: Phân loại câu hỏi (Tên lửa nhấp nhô) -->
+                            <div class="col-xl-4 js-appear-enabled animated flipInX" data-toggle="appear" data-class="animated flipInX">
+                                <div class="w-100 py-4 px-2">
+                                    <div class="d-inline-block bg-body-extra-light rounded p-1 mb-4">
+                                        <div class="d-inline-block bg-xpro-lighter rounded p-4">
+                                            <!-- Đã thêm class my-bounce-animation -->
+                                            <i class="fa fa-rocket fa-2x text-xpro my-bounce-animation"></i>
+                                        </div>
+                                    </div>
+                                    <h3 class="h4 fw-bold mb-1">
+                                        Phân loại câu hỏi
+                                    </h3>
+                                    <p class="fw-medium text-dark mb-0">
+                                        Đưa ra các câu hỏi phù hợp với nhu cầu của người dùng, giúp tạo ra bài kiểm tra
+                                        trắc nghiệm chất lượng và hiệu quả.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END Section 1 -->
+
+            <!-- Section 2 -->
+            <div class="bg-body-extra-light">
+                <div class="content content-full">
+                    <div class="row">
+                        <div class="order-md-1 col-md-6 d-flex align-items-center justify-content-center">
+                            <img src="./index_files/landing_1_1.jpg" alt="" class="feature__img js-appear-enabled animated fadeInRight" data-toggle="appear" data-class="animated fadeInRight">
+                        </div>
+                        <div class="order-md-0 col-md-6 d-flex align-items-center">
+                            <div>
+                                <h3 class="h3 mb-4 fw-bolder js-appear-enabled animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp" data-offset="-200">
+                                    Quy định sử dụng phần mềm
+                                </h3>
+                                <p class="mb-4 js-appear-enabled animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp" data-offset="-200">Hệ thống hỗ trợ tạo bài đánh giá với nhiều tuỳ chọn, giúp
+                                    quản trị viên thiết lập nhanh chóng.</p>
+                                <ul class="text-dark mb-4 m-0 list-unstyled">
+                                    <li class="list-landing js-appear-enabled animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp" data-offset="-200" data-timeout="200">Tạo bài
+                                        đánh giá với nhiều dạng câu hỏi</li>
+                                    <li class="list-landing js-appear-enabled animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp" data-offset="-200" data-timeout="400">Câu hỏi
+                                        chọn 1 kết quả</li>
+                                    <li class="list-landing js-appear-enabled animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp" data-offset="-200" data-timeout="600">Trả lời
+                                        đoạn văn ngắn</li>
+                                    <li class="list-landing js-appear-enabled animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp" data-offset="-200" data-timeout="800">Trả lời
+                                        bằng cách upload file (Hình ảnh, word, video)
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content content-full">
+                    <div class="row">
+                        <div class="order-md-0 col-md-6 d-flex align-items-center justify-content-center">
+                            <img src="./index_files/260414.04.jpg" alt="" class="feature__img js-appear-enabled animated fadeInLeft" data-toggle="appear" data-class="animated fadeInLeft">
+                        </div>
+                        <div class="order-md-1 col-md-6 d-flex align-items-center">
+                            <div>
+                                <h3 class="h3 mb-4 fw-bolder js-appear-enabled animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp" data-offset="-200">
+                                    Lên trước lịch làm bài hoặc giới hạn thời gian làm bài đánh giá
+                                </h3>
+                                <p class="js-appear-enabled animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp" data-offset="-200">
+                                    Bạn có thể cài đặt khung thời gian để nhân viên chỉ làm bài trong khoảng thời
+                                    gian quy định:
+                                </p>
+                                <ul class="text-dark mb-4 m-0 list-unstyled">
+                                    <li class="list-landing js-appear-enabled animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp" data-offset="-200" data-timeout="200">Quy
+                                        định thời gian cho bài làm</li>
+                                    <li class="list-landing js-appear-enabled animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp" data-offset="-200" data-timeout="400">Quy
+                                        định thời gian có thể bắt đầu làm bài</li>
+                                    <li class="list-landing js-appear-enabled animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp" data-offset="-200" data-timeout="600">Quy
+                                        định thời gian kết thúc hiệu lực làm bài</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content content-full">
+                    <div class="row">
+                        <div class="order-md-1 col-md-6 d-flex align-items-center justify-content-center">
+                            <img src="./index_files/nang_bac_luong_dot_1.25_4.jpg" alt="" class="feature__img js-appear-enabled animated fadeInRight" data-toggle="appear" data-class="animated fadeInRight">
+                        </div>
+                        <div class="order-md-0 col-md-6 d-flex align-items-center">
+                            <div>
+                                <h3 class="h3 mb-4 fw-bolder js-appear-enabled animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp" data-offset="-200">
+                                    Nhân viên làm bài không cần cài đặt thêm ứng dụng
+                                </h3>
+                                <p class="mb-2 js-appear-enabled animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp" data-offset="-200">Hệ thống cho phép nhân viên làm bài đánh giá trực tuyến dễ
+                                    dàng mà không cần cài đặt thêm ứng dụng.</p>
+                                <ul class="text-dark mb-4 m-0 list-unstyled">
+                                    <li class="list-landing js-appear-enabled animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp" data-offset="-200" data-timeout="200">Bảo mật
+                                        thông tin</li>
+                                    <li class="list-landing js-appear-enabled animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp" data-offset="-200" data-timeout="400">Giao diện
+                                        làm bài trực quan và dễ tương tác
+                                    </li>
+                                    <li class="list-landing js-appear-enabled animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp" data-offset="-200" data-timeout="600">Giao diện
+                                        tuỳ biến theo kích thước màn hình </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-body-extra-light">
+                <div class="content content-full">
+                    <div class="pt-7 pb-5">
+                        <div class="position-relative">
+                            <h2 class="fw-bold mb-2 text-center js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown" data-offset="-200">
+                                <span class="text-primary">HỘI ĐỒNG THI</span>
+                            </h2>
+                            <h3 class="h4 fw-medium text-muted text-center mb-5 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown" data-offset="-200">
+                                Tham gia công tác giảm khảo, giám sát kỳ thi
+                            </h3>
+                        </div>
+                        <div class="row">
+                            <div class="text-center slider-team slick-initialized slick-slider slick-dotted">
+                                <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 1144px; transform: translate3d(0px, 0px, 0px);"><div class="p-3 slick-slide slick-current slick-active js-appear-enabled animated flipInX" data-toggle="appear" data-class="animated flipInX" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00" style="width: 286px;">
+                                    <a class="block block-rounded bg-gd-primary text-center" href="https://evidifi.vn/" tabindex="0">
+                                        <div class="block-content block-content-full bg-gd-sea">
+                                            <img class="img-avatar img-avatar-thumb" src="./index_files/l60Hf.png" alt="">
+                                        </div>
+                                        <div class="block-content block-content-full bg-black-10">
+                                            <p class="fw-semibold text-white mb-0">...</p>
+                                            <p></p>
+                                        </div>
+                                    </a>
+                                </div><div class="p-3 slick-slide slick-active js-appear-enabled animated flipInX" data-toggle="appear" data-class="animated flipInX" data-slick-index="1" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01" style="width: 286px;">
+                                    <a class="block block-rounded bg-gd-primary text-center" href="https://evidifi.vn/" tabindex="0">
+                                        <div class="block-content block-content-full bg-gd-sea">
+                                            <img class="img-avatar img-avatar-thumb" src="./index_files/l60Hf.png" alt="">
+                                        </div>
+                                        <div class="block-content block-content-full bg-black-10">
+                                            <p class="fw-semibold text-white mb-0">...</p>
+                                            <p></p>
+                                        </div>
+                                    </a>
+                                </div><div class="p-3 slick-slide slick-active js-appear-enabled animated flipInX" data-toggle="appear" data-class="animated flipInX" data-slick-index="2" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02" style="width: 286px;">
+                                    <a class="block block-rounded bg-gd-primary text-center" href="https://evidifi.vn/" tabindex="0">
+                                        <div class="block-content block-content-full bg-gd-sea">
+                                            <img class="img-avatar img-avatar-thumb" src="./index_files/l60Hf.png" alt="">
+                                        </div>
+                                        <div class="block-content block-content-full bg-black-10">
+                                            <p class="fw-semibold text-white mb-0">...</p>
+                                            <p></p>
+                                        </div>
+                                    </a>
+                                </div><div class="p-3 slick-slide slick-active js-appear-enabled animated flipInX" data-toggle="appear" data-class="animated flipInX" data-slick-index="3" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide03" aria-describedby="slick-slide-control03" style="width: 286px;">
+                                    <a class="block block-rounded bg-gd-primary text-center" href="https://evidifi.vn/" tabindex="0">
+                                        <div class="block-content block-content-full bg-gd-sea">
+                                            <img class="img-avatar img-avatar-thumb" src="./index_files/l60Hf.png" alt="">
+                                        </div>
+                                        <div class="block-content block-content-full bg-black-10">
+                                            <p class="fw-semibold text-white mb-0">...</p>
+                                            <p></p>
+                                        </div>
+                                    </a>
+                                </div></div></div>
+                                
+                                
+                                
+                            <ul class="slick-dots" role="tablist"><li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 1" tabindex="0" aria-selected="true">1</button></li></ul></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END Section 2 -->
+
+            <!-- Section 3 -->
+            <!-- <div class="bg-body-light">
+                <div class="content content-full">
+                    <div class="py-4">
+                        <h2 class="fw-bold mb-2 text-center invisible" data-toggle="appear" data-class="animated fadeInDown" data-offset="-200">
+                            Khách hàng nói gì <span class="text-primary">về chúng tôi</span>
+                        </h2>
+                        <h3 class="h4 fw-medium text-muted text-center mb-5 invisible" data-toggle="appear" data-class="animated fadeInDown" data-offset="-200">
+                            Luôn đồng hành và mang lại trải nghiệm tốt nhất cho doanh nghiệp.
+                        </h3>
+                    </div> -->
+                    <!-- Slider -->
+                    <!-- <div class="js-slider invisible" data-toggle="appear" data-class="animated bounceIn" data-offset="-200" data-timeout="400" data-dots="true" data-arrows="true"
+                        data-slides-to-show="1" data-autoplay="false">
+                        <div class="py-3">
+                            <blockquote class="blockquote">
+                                <p class="px-7 fs-5 text-justify mb-5">Vidifi Test là một nền tảng đánh giá nội bộ tiện lợi và
+                                    hiệu quả cho doanh nghiệp. Giao diện trực quan, cấu hình linh hoạt, báo cáo chi
+                                    tiết và khả năng lưu trạng thái giúp quá trình đánh giá diễn ra ổn định. Hệ thống
+                                    cũng chú trọng bảo mật dữ liệu và phân quyền người dùng rõ ràng.</p>
+                            </blockquote>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img class="img-avatar me-4" src="/public/media/avatars/thanhsang.jpg" alt="">
+                                <div class="d-flex flex-column align-items-start">
+                                    <div class="mt-2 fw-semibold fs-4">Nguyễn Thanh Sang</div>
+                                    <div class="fs-sm text-muted fs-5">Quản lý đào tạo</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="py-3">
+                            <blockquote class="blockquote">
+                                <p class="px-7 fs-5 text-justify mb-5">Vidifi Test giúp chuẩn hóa quy trình đánh giá, quản lý kết
+                                    quả tập trung và giảm đáng kể thao tác thủ công. Việc thiết kế bài đánh giá, phân
+                                    quyền và theo dõi kết quả trở nên rõ ràng và dễ vận hành hơn.</p>
+                            </blockquote>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img class="img-avatar me-4" src="/public/media/avatars/avatar0.jpg" alt="">
+                                <div class="d-flex flex-column align-items-start">
+                                    <div class="mt-2 fw-semibold fs-4">Hoàng Gia Bảo</div>
+                                    <div class="fs-sm text-muted fs-5">31214110069</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="py-3">
+                            <blockquote class="blockquote">
+                                <p class="px-7 fs-5 text-justify mb-5">Vidifi Test có giao diện trực quan, dễ dùng và có đầy đủ các
+                                    tính năng phục vụ cho đánh giá nội bộ hiện đại. Nền tảng luôn được cập nhật theo
+                                    nhu cầu vận hành của doanh nghiệp.</p>
+                            </blockquote>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img class="img-avatar me-4" src="/public/media/avatars/avatar0.jpg" alt="">
+                                <div class="d-flex flex-column align-items-start">
+                                    <div class="mt-2 fw-semibold fs-4">Trần Nhật Sinh</div>
+                                    <div class="fs-sm text-muted fs-5">Quản trị hệ thống</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="py-3">
+                            <blockquote class="blockquote">
+                                <p class="px-7 fs-5 text-justify mb-5">Nhờ Vidifi Test mà chúng tôi tiết kiệm được rất nhiều thời gian
+                                    trong việc quản lý bài đánh giá và theo dõi kết quả. Việc soạn câu hỏi, tạo đề và
+                                    xử lý dữ liệu trở nên đơn giản hơn rất nhiều.</p>
+                            </blockquote>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img class="img-avatar me-4" src="/public/media/avatars/avatar0.jpg" alt="">
+                                <div class="d-flex flex-column align-items-start">
+                                    <div class="mt-2 fw-semibold fs-4">Âu Hạo Nhiên</div>
+                                    <div class="fs-sm text-muted fs-5">3121410055</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="py-3">
+                            <blockquote class="blockquote">
+                                <p class="px-7 fs-5 text-justify mb-5">Nhờ Vidifi Test mà chúng tôi tiết kiệm được rất nhiều thời gian
+                                    trong việc quản lý bài đánh giá và theo dõi kết quả. Việc soạn câu hỏi, tạo đề và
+                                    xử lý dữ liệu trở nên đơn giản hơn rất nhiều.</p>
+                            </blockquote>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img class="img-avatar me-4" src="/public/media/avatars/avatar0.jpg" alt="">
+                                <div class="d-flex flex-column align-items-start">
+                                    <div class="mt-2 fw-semibold fs-4">Đăng Lê Anh Huy</div>
+                                    <div class="fs-sm text-muted fs-5">3121410044</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- END Slider -->
+                <!-- </div>
+            </div> -->
+            <!-- END Section 3 -->
+        </main>
+        <!-- END Main Container -->
+
+        <!-- Footer -->
+        <footer id="page-footer" class="footer-static bg-body-extra-light">
+            <div class="content py-4">
+                <!-- Footer Navigation -->
+                <div class="row items-push fs-sm border-bottom pt-4">
+                    <div class="col-6 col-md-4">
+                        <h3 class="fw-semibold">Thông tin</h3>
+                        <ul class="list list-simple-mini">
+                            <li>
+                                <a class="fw-semibold text-dark" href="http://10.255.245.6/#">
+                                    Chính sách bảo mật
+                                </a>
+                            </li>
+                            <li>
+                                <a class="fw-semibold text-dark" href="http://10.255.245.6/#">
+                                    Điều khoản sử dụng
+                                </a>
+                            </li>
+                            <li>
+                                <a class="fw-semibold text-dark" href="http://10.255.245.6/#">
+                                    Hướng dẫn
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="fw-semibold">Địa chỉ</h3>
+                        <div class="fs-sm push">
+                            <b>Thôn Thuận Tốn, Xã Bát Tràng<br>
+                            <b>Công ty TNHH MTV Quản lý và khai thác đường cao tốc Hà Nội - Hải Phòng<br>
+                            <b>Điện thoại: 0243.2005.999<br>
+                        </b></b></b></div><b><b><b>
+                    </b></b></b></div><b><b><b>
+                <!-- END Footer Navigation -->
+
+                <!-- Footer Copyright -->
+                <!-- END Footer Copyright -->
+            </b></b></b></div><b><b><b>
+        </b></b></b></div></footer><b><b><b>
+        <!-- END Footer -->
+    </b></b></b></div><b><b><b>
+    <!-- END Page Container -->
+
+    <!-- END Page Container -->
+<script src="./index_files/dashmix.app.min.js.download"></script>
+<scrip src="/public/js/notifications.js"></scrip>
+
+<!-- jQuery (required for BS Datepicker + BS Maxlength + Select2 + Masked Inputs + Ion Range Slider plugins) -->
+<script src="./index_files/slick.min.js.download"></script><script src="./index_files/jquery.appear.min.js.download"></script><script src="./index_files/landing.js.download"></script>
+
+</b></b></b></body></html>
